@@ -1,0 +1,26 @@
+{
+  "name": "badge-demo",
+  "description" : "this is a demo for badge chrome extension",
+  "author": "wws",
+  "permissions": [
+    "cookies",
+    "tabs",
+    "alarms",
+    "storage",
+    "contextMenus",
+    "notifications",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "icons": {
+      "48": "icon.png",
+      "128": "icon.png"
+  },
+  "homepage_url": "https://github.com/onewesong/badge_demo_chrome_extension",
+  "version": "0.0.1",
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "manifest_version": 2
+}
